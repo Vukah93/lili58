@@ -25,7 +25,6 @@ builds:
     cmake-args: -DCONFIG_ZMK_STUDIO=y
     modules:
       - pointing_behavior
-      - mouse_behavior       
     snippet: studio-rpc-usb-uart
 
   - board: nice_nano_v2
@@ -34,5 +33,5 @@ builds:
     cmake-args: -DCONFIG_ZMK_STUDIO=y
     modules:
       - pointing_behavior
-      - mouse_behavior       
     snippet: studio-rpc-usb-uart
+

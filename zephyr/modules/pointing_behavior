@@ -1,0 +1,2 @@
+mkdir -p modules
+git clone https://github.com/urob/zmk-pointing-device-behavior.git modules/pointing_behavior
