@@ -1,7 +1,7 @@
 manifest:
   projects:
     - name: pointing_behavior
-      url: https://github.com/Vukah93/behavior-pointing.git
+      url: https://github.com/zmkfirmware/behavior-pointing.git
       revision: main
   self:
     path: config
