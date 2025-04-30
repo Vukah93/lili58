@@ -1,7 +1,11 @@
 manifest:
+  remotes:
+    - name: zmkfirmware
+      url-base: https://github.com/zmkfirmware
   projects:
-    - name: pointing_behavior
-      url: https://github.com/zmkfirmware/behavior-pointing.git
+    - name: zmk
+      remote: zmkfirmware
       revision: main
+      import: app/west.yml
   self:
     path: config
