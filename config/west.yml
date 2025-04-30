@@ -3,6 +3,5 @@ manifest:
     - name: pointing_behavior
       url: https://github.com/zmkfirmware/behavior-pointing.git
       revision: main
-      clone-depth: 1
   self:
     path: config
