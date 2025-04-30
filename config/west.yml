@@ -1,7 +1,5 @@
-manifest:
-  projects:
+ projects:
     - name: pointing_behavior
-      url: https://github.com/zmkfirmware/behavior-pointing.git
+      url: https://github.com/zmkfirmware/behavior-pointing
       revision: main
-  self:
-    path: config
+      clone-depth: 1
